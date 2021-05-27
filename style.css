@@ -221,7 +221,7 @@ font-style: normal;
 .minus{
     width: 15px;
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:320px){
     .container{
         margin-top: -9px;
     }
