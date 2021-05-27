@@ -1,18 +1,106 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="icon" href="devchallenges.png" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link href="style.css" rel="stylesheet">
+  <title>Checkout Page</title>
 
 <body>
+  <div class="container">
+    <div class="header">Checkout</div>
+    <div class="main">
+      <div class="col1">
+        <div class="contact-info">
+          <span>Contact Information</span>
+          <div><label for="email">E-mail</label><br />
+            <input type="email" id="email" name="email">
+          </div>
+          <div><label for="tel">Phone</label>
+            <input type="tel" id="tel" name="tel">
+          </div>
+        </div>
+        <div class="address-container">
+          <span>Shipping Address</span>
+          <div><label for="name">Name</label><br/>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div><label for="address">Address</label><br/>
+            <input type="text" id="address" name="address" required>
+          </div>
+          <div><label for="name">City</label><br/>
+            <input type="text" id="city" name="city" required>
+          </div>
+          <div class="shipping-last-col">
+           
+            <div class="country-container">
+              <label for="country">Your country</label>
+              <input type="text" id="country" name="country" required>
+            </div>
+            <div class="postal-container">
+              <label for="postal">Postal-code</label>
+              <input type="text" id="postal" name="postal" required>
+            </div>
+          </div>
+        </div> 
+        <div class="checkbox-container">
+          <input type="checkbox" id="consent-box" name="consent-box" value="">
+          <label for="consent-box"> Save this information for next time</label>
+        </div>
+        <div class="btn">Continue</div>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
-<p>Welcome to your first GitHub Pages website!1234</p>
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
-
+       </div>
+       
+       <div class="col2 preview-container">
+        <div class=" img img1"></div>
+        <div class="img1-content prod-spec">
+          <div class="img-content-text">Vintage Backbag<br/><span id="number-ist">$54.99</span>
+          <span id="number-2nd">$94.99</span></div>
+          <div class="img-content-rect">
+            <button class="plus-minus">+</button>
+            <div>1</div>
+            <button class="plus-minus minus">-</button>
+          </div>
+        </div>
+        <div class="img img2"></div>
+        <div class="img2-content prod-spec">
+          <div class="img-content-text">Levi Shoes<br/>
+            <span id="number-ist">$74.99</span>
+          <span id="number-2nd">$124.99</span>
+          </div>
+          <div class="img-content-rect">
+            <button class="plus-minus">+</button>
+            <div>1</div>
+            <button class="plus-minus minus">-</button>
+          </div>
+        </div>
+        <div class="bill">
+          <div class="total-line">
+            <div>Shipping</div>
+            <div class="number-3rd">$19</div>
+            </div>
+          <div class="total-line">
+           <div>Total</div> 
+           <div class="number-3rd">$148.98</div>
+          </div>
+          
+        </div>
+      </div> 
+      
+    </div>
+    
+  </div>
+  <div class="footer">created by Sanjana - devChallenges.io</div>
+  </div>
 </body>
+
 </html>
+
+
+
