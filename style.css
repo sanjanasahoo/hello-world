@@ -1,5 +1,8 @@
 html,body{
     margin: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .header{
 font-family: 'Montserrat';
@@ -11,15 +14,16 @@ color: #4E5150;
 transform: rotate(-0.02deg);
 }
 .main{
+    flex: auto;
     display: flex;
     width: 80vw;
     height: 80vh;
     justify-content: space-between;
 }
 .footer{
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
-    height: 2%;
+    height: 2%; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -212,15 +216,16 @@ font-style: normal;
     color: #333333;
 }
 .plus-minus{
+    text-decoration: none;
     margin: 5px;
     padding: 2px 4px;
     border-radius: 4px;
     background: #E0E0E0;
     border: #E0E0E0;
 }
-.minus{
+/* .minus{
     width: 15px;
-}
+} */
 @media screen and (max-width:375px){
     .container{
         margin-top: -9px;
